@@ -19,3 +19,8 @@ def standard_normal_cdf(z):
     z = np.asarray(z, dtype=float)
     return 0.5 * _erfc(-z / _sqrt2)
 
+# Step 3 - pooled_proportion
+def pooled_proportion(successes_a, total_a, successes_b, total_b):
+    # TODO: Compute the pooled success proportion across two groups for the null of equal rates.
+    return float((successes_a + successes_b) / (total_a + total_b))
+

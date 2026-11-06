@@ -11,6 +11,7 @@ python scaffold.py
 ## Steps
 
 - [x] **1.** standard_normal_cdf
+- [x] **3.** pooled_proportion
 
 ---
 
